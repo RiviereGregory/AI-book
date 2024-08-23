@@ -6,12 +6,13 @@ authors = ["Ken <ken@kenh.fr>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = ">=3.8"
+python = ">=3.9,<3.11"
 matplotlib = ">=3"
 numpy = ">=1.19"
 tensorflow = ">=2.4"
 Pillow = ">=7"
 opencv-python = ">=4"
+tensorflow-io-gcs-filesystem = "0.27.0"
 tqdm = "*" 
 
 [tool.poetry.dev-dependencies]
